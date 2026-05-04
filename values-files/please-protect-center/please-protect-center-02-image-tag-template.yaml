@@ -1,0 +1,5 @@
+
+please-protect-center:
+  pods:
+    image:
+      tag: "<<image-tag>>"

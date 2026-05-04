@@ -1,0 +1,5 @@
+onixJobs:
+  scanItemBucket: onix-v2-artifacts
+  scanItemOrg: napbiotec
+  scanItemCount: "100"
+  scanItemUrl: 'https://scan.please-scan.com/org/{VAR_ORG}/Verify/{VAR_SERIAL}/{VAR_PIN}'

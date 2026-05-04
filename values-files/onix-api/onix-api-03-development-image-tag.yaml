@@ -1,0 +1,5 @@
+
+onix-api:
+  pods:
+    image:
+      tag: "main-e3588ff"
