@@ -23,7 +23,7 @@ spec:
           value: {{ .Values.envAliasJob }}
 
         - name: LOG_ENDPOINT
-          value: "http://logstash-http.logstash-soc.svc.cluster.local:8080"
+          value: "http://logstash-http.logstash-etl.svc.cluster.local:8080"
 
         - name: TZ
           value: "Asia/Bangkok"
@@ -57,7 +57,7 @@ spec:
           value: '/data/temp'
 
         - name: API_ENDPOINT
-          value: "http://onix-v2-{{ .Values.envGroup }}-onix-api"
+          value: "http://pp-{{ .Values.envGroup }}-onix-api"
 
         command:
           - ruby
