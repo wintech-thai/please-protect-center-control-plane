@@ -1,0 +1,10 @@
+---
+envAlias: production
+envAliasJob: Production
+
+envGroup: prod
+
+domainOnixPpAPI: api-prod.pp-center.local
+pleaseProtectCenterDomain: center-prod.pp-center.local
+
+pgDiskSize: 100Gi
