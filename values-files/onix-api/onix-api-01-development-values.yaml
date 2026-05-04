@@ -14,8 +14,8 @@ onix-api:
       - name: GOOGLE_APPLICATION_CREDENTIALS
         value: '/secrets/sa.json'
 
-      - name: STORAGE_BUCKET
-        value: 'onix-v2-artifacts'
+      #- name: STORAGE_BUCKET
+      #  value: 'onix-v2-artifacts'
 
       - name: ENV_GROUP
         value: 'dev'
@@ -28,27 +28,27 @@ onix-api:
         value: "Development"
 
       - name: LOG_ENDPOINT
-        value: "http://logstash-http.logstash-soc.svc.cluster.local:8080"
+        value: "http://logstash-http.logstash-etl.svc.cluster.local:8080"
 
       - name: IsDev
         value: "true"
 
-      - name: ScanItem__RedirectUrl
-        value: "https://verify-dev.please-scan.com/verify"
+      #- name: ScanItem__RedirectUrl
+      #  value: "https://verify-dev.please-scan.com/verify"
 
-      - name: ScanItem__SymmetricKey
-        valueFrom:
-          secretKeyRef:
-            name: scan-item-secret
-            key: ENCRYPTION_KEY
-            optional: false
+      #- name: ScanItem__SymmetricKey
+      #  valueFrom:
+      #    secretKeyRef:
+      #      name: scan-item-secret
+      #      key: ENCRYPTION_KEY
+      #      optional: false
 
-      - name: ScanItem__EncryptionIv
-        valueFrom:
-          secretKeyRef:
-            name: scan-item-secret
-            key: ENCRYPTION_IV
-            optional: false
+      #- name: ScanItem__EncryptionIv
+      #  valueFrom:
+      #    secretKeyRef:
+      #      name: scan-item-secret
+      #      key: ENCRYPTION_IV
+      #      optional: false
 
       - name: PostgreSQL__Host
         value: "postgresql-onix"

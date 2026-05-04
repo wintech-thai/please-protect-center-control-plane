@@ -44,7 +44,7 @@ please-protect-center:
             optional: false
 
       - name: ES_URL
-        value: 'https://es-analytic-es-http.elasticsearch.svc.cluster.local:9200'
+        value: 'https://es-pp-es-http.elasticsearch.svc.cluster.local:9200'
 
       - name: ES_INDEX_PATTERN
         value: 'onix-v2-*'
