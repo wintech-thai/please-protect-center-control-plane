@@ -19,6 +19,6 @@ spec:
             pathType: Prefix
             backend:
               service:
-                name: onix-v2-{{ .Values.envGroup }}-please-protect-center
+                name: pp-{{ .Values.envGroup }}-please-protect-center
                 port:
                   number: 80
