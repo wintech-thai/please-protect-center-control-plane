@@ -21,10 +21,10 @@ please-protect-center:
         value: 'Development'
 
       - name: NEXT_PUBLIC_API_URL
-        value: 'https://api-dev.please-protect.com'
+        value: '/api/proxy'
 
       - name: BACKEND_URL
-        value: 'https://api-dev.please-protect.com'
+        value: 'http://pp-dev-onix-api'
 
       - name: NEXT_PUBLIC_PROVIDER_URL
         value: 'https://web-dev.dev-hubs.com'
