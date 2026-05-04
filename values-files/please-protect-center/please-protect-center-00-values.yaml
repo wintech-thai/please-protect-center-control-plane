@@ -35,10 +35,10 @@ please-protect-center:
         mountPath: "/secrets"
         readOnly: true
 
-    volumes:
-      - name: secrets
-        secret:
-          secretName: gcp-sa-secret
+    #volumes:
+    #  - name: secrets
+    #    secret:
+    #      secretName: gcp-sa-secret
 
   service:
     enabled: true
