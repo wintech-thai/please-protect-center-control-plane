@@ -30,10 +30,10 @@ please-protect-center:
     image:
       name: asia-southeast1-docker.pkg.dev/its-artifact-commons/please-protect/please-protect-center
 
-    volumeMounts:
-      - name: secrets
-        mountPath: "/secrets"
-        readOnly: true
+    #volumeMounts:
+    #  - name: secrets
+    #    mountPath: "/secrets"
+    #    readOnly: true
 
     #volumes:
     #  - name: secrets
