@@ -99,3 +99,6 @@ onix-api:
             name: idp-secret
             key: IDP_REALM
             optional: false
+
+      - name: IDP_WITH_AUTH_PATH
+        value: "false"
