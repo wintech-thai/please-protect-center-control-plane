@@ -6,7 +6,7 @@ metadata:
 subjects:
 - kind: ServiceAccount
   name: onix-sa
-  namespace: onix-v2-{{ .Values.envAlias }}
+  namespace: pp-{{ .Values.envAlias }}
 roleRef:
   kind: ClusterRole
   name: onix-cr-{{ .Values.envAlias }}

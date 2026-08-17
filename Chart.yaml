@@ -9,11 +9,18 @@ appVersion: "1.0"
 dependencies:
 
   ### pgSQL ###
+  ### ไม่ใช้แล้วแต่ว่าให้คงไว้ก่อน
   - name: "postgresql"
     alias: postgresql-onix
     condition: postgresql-onix.enabled
     repository: "https://charts.bitnami.com/bitnami"
     version: "16.7.15"
+
+  ### PostgreSQL V2 ###
+  - name: "postgresql-v2"
+    alias: postgresql-v2
+    condition: postgresql-v2.enabled
+    version: "1.0.0"
 
   ### Redis ###
   - name: "redis"
