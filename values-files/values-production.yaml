@@ -8,4 +8,4 @@ domainOnixPpAPI: api-prod.pp-center.local
 pleaseProtectCenterDomain: center-prod.pp-center.local
 
 pgDiskSize: 100Gi
-pgHost: postgresql-onix
+pgHost: postgresql-onix-v2
