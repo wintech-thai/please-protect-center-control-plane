@@ -4,7 +4,7 @@ metadata:
   name: db-sync
 spec:
   # kubectl create job --from=cronjob/db-sync db-sync-001 -n pp-development
-  suspend: false #ย้ายมาใช้ postgres-onix-v2 แล้วอันนี้เลยปิดไปก่อน
+  suspend: true #ย้ายมาใช้ postgres-onix-v2 แล้วอันนี้เลยปิดไปก่อน
   schedule: "*/10 * * * *"
   jobTemplate:
     spec:

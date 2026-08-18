@@ -1,5 +1,5 @@
 postgresql-onix:
-  enabled: true
+  enabled: false
   fullnameOverride: postgresql-onix
   auth:
     database: onix
