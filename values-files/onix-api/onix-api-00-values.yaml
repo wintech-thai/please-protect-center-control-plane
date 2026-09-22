@@ -28,7 +28,7 @@ onix-api:
       periodSeconds: 10
 
     image:
-      name: pjamenaja/onix-api
+      name: pjamenaja/onix-v2-api
 
     volumeMounts:
       - name: secrets
